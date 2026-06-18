@@ -1,0 +1,7 @@
+# robots.txt עבור sade-il.com
+# מאפשר לכל מנועי החיפוש לסרוק את כל האתר
+User-agent: *
+Allow: /
+
+# מפת האתר — עוזרת למנועי החיפוש לגלות את כל העמודים
+Sitemap: https://sade-il.com/sitemap.xml
