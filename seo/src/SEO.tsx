@@ -49,11 +49,7 @@ export function SEO({
   image = DEFAULT_IMAGE,
   noindex = false,
 }: SEOProps) {
-  let normalizedPath = "/";
-  if (path) {
-    normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  }
-  const url = new URL(normalizedPath, SITE_URL).toString();
+  const url = new URL(path || "/", SITE_URL).toString();
 
   return (
     <Helmet>
