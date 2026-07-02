@@ -50,7 +50,7 @@ export function SEO({
   noindex = false,
 }: SEOProps) {
   const normalizedPath = path ? (path.startsWith("/") ? path : `/${path}`) : "/";
-  const url = new URL(normalizedPath, `${SITE_URL}/`).toString();
+  const url = new URL(normalizedPath, SITE_URL).toString();
 
   return (
     <Helmet>
