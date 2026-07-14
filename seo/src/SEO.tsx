@@ -49,7 +49,7 @@ export function SEO({
   image = DEFAULT_IMAGE,
   noindex = false,
 }: SEOProps) {
-  const url = `${SITE_URL}${path}`;
+  const url = new URL(path, SITE_URL).href;
 
   return (
     <Helmet>
