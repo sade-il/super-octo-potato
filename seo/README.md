@@ -47,6 +47,8 @@
 |------|------------------------------|--------------|
 | `public/robots.txt` | `public/robots.txt` | מאשר סריקה ומפנה ל-sitemap |
 | `public/sitemap.xml` | `public/sitemap.xml` | רשימת העמודים עבור גוגל |
+| `public/og-image.jpg` | `public/og-image.jpg` | תמונת Open Graph לשיתוף (placeholder — החליפו בתמונה אמיתית) |
+| `public/logo.png` | `public/logo.png` | לוגו לנתוני מובנים (placeholder — החליפו בלוגו האמיתי) |
 | `index.html` | מחליף את `index.html` בשורש | מטא-תגיות תקינות + עברית/RTL |
 | `src/SEO.tsx` | `src/components/SEO.tsx` | מטא-תגיות ייחודיות לכל עמוד |
 
@@ -58,7 +60,7 @@
 1. פתחו את הפרויקט ב-Lovable.
 2. צרו/החליפו את הקבצים `public/robots.txt`, `public/sitemap.xml` ו-`index.html`
    בתוכן שמצורף כאן.
-3. מלאו את הטקסטים שבסוגריים מרובעים `[ ]` בתוכן האמיתי (שם העסק, תיאור).
+3. אם קיימים placeholders בסוגריים מרובעים `[ ]` — מלאו אותם בתוכן האמיתי (שם העסק, תיאור). בגרסה הנוכחית הקבצים כבר מולאו ואין צורך בעריכה.
 4. פרסמו מחדש (Publish).
 
 ### אפשרות ב': דרך GitHub
